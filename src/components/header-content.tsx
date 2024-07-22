@@ -2,10 +2,11 @@ import { Separator } from "@/components/ui/separator";
 import { montserrat } from "@/app/layout";
 
 interface headerContent {
-    orientation: 'vertical' | 'horizontal'
+    orientation: 'vertical' | 'horizontal',
+    closeSheet: () => void,
 }
 
-export default function HeaderContent({ orientation }: headerContent) {
+export default function HeaderContent({ orientation, closeSheet }: headerContent) {
   return (
     <>
       <p
@@ -14,11 +15,12 @@ export default function HeaderContent({ orientation }: headerContent) {
         ACCEUIL
       </p>
       <Separator orientation={orientation} decorative className="bg-white" />
-      <p
+      <a href="#services"
         className={`text-lg cursor-pointer hover:underline underline-offset-4 hover:decoration-[#B91F25] text-[#020202] ${montserrat.className} text-base lg:text-lg`}
+        onClick={closeSheet}
       >
         NOS SERVICES
-      </p>
+      </a>
       <Separator orientation={orientation} decorative className="bg-white" />
       <p
         className={`text-lg cursor-pointer hover:underline underline-offset-4 hover:decoration-[#B91F25] text-[#020202] ${montserrat.className} text-base lg:text-lg`}

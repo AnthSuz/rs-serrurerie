@@ -1,3 +1,4 @@
+'use client'
 import RsLogo from "../../public/img/test-img.png";
 import Image from "next/image";
 import { montserrat } from "@/app/layout";
@@ -9,15 +10,21 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import HeaderContent from "./header-content";
+import { useState } from "react";
 
 export default function Header() {
+  const [openSheet, setOpenSheet] = useState<boolean>(false);
+
+  const closeSheet = () => {
+    setOpenSheet(false)
+  }
   return (
     <div className="flex gap-2 justify-between fixed  px-8 p-2 w-full bg-[#e1e1e1] text-white">
       <div className="flex justify-center items-center">
         <Image src={RsLogo} alt="rs serrurie" className="w-12 md:w-24" />
       </div>
       <div className="gap-4 justify-center items-center hidden md:flex">
-        <HeaderContent orientation="vertical" />
+        <HeaderContent orientation="vertical" closeSheet={closeSheet} />
       </div>
       <div className="flex gap-2 justify-center items-center hidden md:flex">
         <Phone color="#B91F25" />
@@ -28,13 +35,13 @@ export default function Header() {
           06.66.15.08.74
         </a>
       </div>
-      <Sheet>
-        <SheetTrigger className="md:hidden">
+      <Sheet open={openSheet}>
+        <SheetTrigger className="md:hidden" onClick={() => setOpenSheet(true)}  >
           <Menu color="#020202" />
         </SheetTrigger>
         <SheetContent side={"right"} className="bg-[#e1e1e1]">
           <SheetDescription className="gap-4 flex flex-col">
-            <HeaderContent orientation="horizontal" />
+            <HeaderContent orientation="horizontal" closeSheet={closeSheet} />
           </SheetDescription>
         </SheetContent>
       </Sheet>
