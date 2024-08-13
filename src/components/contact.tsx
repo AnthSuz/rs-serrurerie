@@ -40,7 +40,7 @@ export default function Contact() {
                   un prix fixe et clair, convenu à l&apos;avance
                 </span>{" "}
                 pour votre problème, qui ne changera pas lors de
-                l&pos;intervention.
+                l&apos;intervention.
               </p>
             </div>
             <div>
@@ -53,7 +53,7 @@ export default function Contact() {
               <p className="mb-3 font-semibold">Etape 3 - Rendez-vous</p>
               <p>
                 Je me déplace pour vous dépanner, ou nous convenons ensemble
-                d&pos;un rendez-vous selon le service.
+                d&apos;un rendez-vous selon le service.
               </p>
             </div>
           </div>

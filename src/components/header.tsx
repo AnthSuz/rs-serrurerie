@@ -11,7 +11,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import HeaderContent from "./header-content";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Header() {
   const [openSheet, setOpenSheet] = useState<boolean>(false);
@@ -21,10 +21,18 @@ export default function Header() {
     setOpenSheet(false);
   };
 
-  window.addEventListener("scroll", () => {
-    let scroll = window.scrollY;
-    setTopPosition(scroll);
-  });
+  useEffect(() => {
+    const handleScroll = () => {
+      let scroll = window.scrollY;
+      setTopPosition(scroll);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <div>

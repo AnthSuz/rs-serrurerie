@@ -1,4 +1,3 @@
-import { montserrat } from "@/app/layout";
 import { KeyRound } from "lucide-react";
 import Check from "../../public/img/white-heavy-check-mark.svg";
 import Image from "next/image";
@@ -24,9 +23,7 @@ export default function Services() {
                 </span>{" "}
                 de serrures
               </h3>
-              <ul
-                className={`${montserrat.className} p-4 h-full font-semibold`}
-              >
+              <ul className="p-4 h-full font-semibold">
                 <li className="mb-4">
                   • Installation de serrures <i>(3,5,7 points)</i> toutes
                   marques
@@ -39,9 +36,7 @@ export default function Services() {
             </div>
             <span className="flex items-start justify-center mt-4 px-2">
               <Image src={Check} alt="check" className="mr-2 w-[24px]" />
-              <p className={`${montserrat.className} font-medium`}>
-                Intervention en moins de 30 minutes
-              </p>
+              <p className="font-medium">Intervention en moins de 30 minutes</p>
             </span>
           </div>
 
@@ -53,9 +48,7 @@ export default function Services() {
                   d&apos;urgence
                 </span>
               </h3>
-              <ul
-                className={`${montserrat.className} p-4 h-full font-semibold`}
-              >
+              <ul className="p-4 h-full font-semibold">
                 <li className="mb-4">• Ouverture de porte claquée</li>
                 <li className="mb-4">• Ouverture de porte fermée à clés</li>
                 <li className="mb-4">• Ouverture de porte blindée</li>
@@ -63,7 +56,7 @@ export default function Services() {
             </div>
             <span className="flex items-start justify-center mt-4 px-2">
               <Image src={Check} alt="check" className="mr-2 w-[24px]" />
-              <p className={`${montserrat.className} font-medium`}>
+              <p className="font-medium">
                 Prix juste et fixe connu à l&apos;avance
               </p>
             </span>
@@ -77,16 +70,14 @@ export default function Services() {
                   sécurité
                 </span>
               </h3>
-              <ul
-                className={`${montserrat.className} p-4 h-full font-semibold`}
-              >
+              <ul className="p-4 h-full font-semibold">
                 <li className="mb-4">• Renforcement et blindage de porte</li>
                 <li className="mb-4">• Changement bloc de porte</li>
               </ul>
             </div>
             <span className="flex items-start justify-center mt-4 px-2">
               <Image src={Check} alt="check" className="mr-2 w-[24px]" />
-              <p className={`${montserrat.className} font-medium`}>
+              <p className="font-medium">
                 Tout nos prix sont agréer assurances
               </p>
             </span>

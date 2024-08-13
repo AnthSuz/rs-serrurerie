@@ -9,9 +9,8 @@ const fontSans = FontSans({
   variable: "--font-sans",
 });
 
-export const montserrat = Montserrat({
+const montserrat = Montserrat({
   subsets: ["latin"],
-  display: "swap",
   variable: "--font-montserrat",
 });
 
@@ -27,10 +26,11 @@ export default function RootLayout({
       <head />
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen bg-background font-montserrat antialiased",
           fontSans.variable,
           montserrat.className
         )}
+        suppressHydrationWarning={true}
       >
         {children}
       </body>
