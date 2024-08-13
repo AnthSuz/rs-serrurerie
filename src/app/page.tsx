@@ -5,6 +5,7 @@ import Header from "@/components/header";
 import Services from "@/components/services";
 import Image from "next/image";
 import WhatsappLogo from "../../public/img/whatsapp.256x256.png";
+import PhoneLogo from "../../public/img/phone.256x256.png";
 import { useEffect, useState } from "react";
 import Footer from "@/components/footer";
 import Tarif from "@/components/tarif";
@@ -33,6 +34,14 @@ export default function Home() {
         >
           Contact moi 🙂
         </p>
+        <a href="tel:+33666150874" className="hover:scale-110 duration-200">
+          <Image
+            src={PhoneLogo}
+            width={60}
+            alt="contact via téléphone"
+            className="cursor-pointer hover:scale-110 duration-200 mx-auto pb-2"
+          />
+        </a>
         <a
           href="https://wa.me/666150874"
           className="hover:scale-110 duration-200"
