@@ -24,7 +24,7 @@ export default function Contact() {
                 color="#B91F25"
               />
               <p className="mb-3 font-semibold">Etape 1 - Contact</p>
-              <p>Contactez-nous sur WhatsApp, par e-mail ou par téléphone</p>
+              <p>Contactez-nous sur WhatsApp, par e-mail ou par téléphone.</p>
             </div>
             <div>
               <Coins
@@ -34,14 +34,13 @@ export default function Contact() {
                 color="#B91F25"
               />
               <p className="mb-3 font-semibold">Etape 2 - Estimation</p>
-              <p></p>
               <p>
-                Vous nous envoyez la photo permettant d’estimer{" "}
+                Envoyez-nous une photo pour permettre d&apos;estimer{" "}
                 <span className="underline decoration-[#B91F25] underline-offset-4 font-medium">
-                  un prix fix et clair convenu à l&apos;avance
+                  un prix fixe et clair, convenu à l&apos;avance
                 </span>{" "}
-                pour votre problème qui ne changera pas lors de
-                l&apos;intervention.
+                pour votre problème, qui ne changera pas lors de
+                l&pos;intervention.
               </p>
             </div>
             <div>
@@ -53,8 +52,8 @@ export default function Contact() {
               />
               <p className="mb-3 font-semibold">Etape 3 - Rendez-vous</p>
               <p>
-                J&apos;arrive pour vous depannez ou nous convenons d&apos;un
-                rendez-vous ensemble selon le service.
+                Je me déplace pour vous dépanner, ou nous convenons ensemble
+                d&pos;un rendez-vous selon le service.
               </p>
             </div>
           </div>

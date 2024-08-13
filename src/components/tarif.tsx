@@ -85,19 +85,17 @@ export default function Tarif() {
           <tbody>
             {priceDetails.map((price, index) => {
               return (
-                <>
-                  <tr key={index} className="border-b border-[#BF1E1D]">
-                    <th
-                      scope="row"
-                      className="text-left font-normal pb-[12px] pt-[12px]"
-                    >
-                      {price.name}
-                    </th>
-                    <td className="pb-[12px] pt-[12px] font-medium">
-                      {price.amount} €
-                    </td>
-                  </tr>
-                </>
+                <tr key={index} className="border-b border-[#BF1E1D]">
+                  <th
+                    scope="row"
+                    className="text-left font-normal pb-[12px] pt-[12px]"
+                  >
+                    {price.name}
+                  </th>
+                  <td className="pb-[12px] pt-[12px] font-medium">
+                    {price.amount} €
+                  </td>
+                </tr>
               );
             })}
           </tbody>
