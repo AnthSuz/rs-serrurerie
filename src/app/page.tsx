@@ -6,6 +6,8 @@ import Services from "@/components/services";
 import Image from "next/image";
 import WhatsappLogo from "../../public/img/whatsapp.256x256.png";
 import { useEffect, useState } from "react";
+import Footer from "@/components/footer";
+import Tarif from "@/components/tarif";
 
 export default function Home() {
   const [displayContactMe, setDisplayContactMe] = useState<Boolean>(true);
@@ -18,7 +20,9 @@ export default function Home() {
       <Header />
       <Acceuil />
       <Services />
+      <Tarif />
       <Contact />
+      <Footer />
       <div className="fixed right-2 bottom-2 ">
         <p
           className={`${
@@ -41,11 +45,6 @@ export default function Home() {
           />
         </a>
       </div>
-
-      {/* Ajouter section Acceuil */}
-      {/* Ajouter section Services */}
-      {/* Ajouter section Certainement tarifs??? */}
-      {/* Ajouter section Contact */}
     </>
   );
 }
