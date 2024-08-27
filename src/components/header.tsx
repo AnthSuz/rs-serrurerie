@@ -36,7 +36,7 @@ export default function Header() {
 
   return (
     <div>
-      <div className="bg-[#BF1E1D] flex fixed w-full justify-between p-2 md:p-0 md:block scroll-smooth">
+      <div className="bg-[#BF1E1D] flex fixed w-full justify-between p-2 md:p-0 md:block scroll-smooth block z-50">
         <div
           className={`flex justify-center hidden ${
             topPosition > 50 ? "hidden" : "md:flex"
