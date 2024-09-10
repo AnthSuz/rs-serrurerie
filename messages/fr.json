@@ -1,0 +1,21 @@
+{
+  "HomePage": {
+    "title": "Coucou Monde!",
+    "about": "Go dans mon cul"
+  },
+  "Contact": {
+    "title": "Contactez-nous",
+    "firstStep": {
+      "title": "Etape 1 - Contact",
+      "description": "Contactez-nous sur WhatsApp, par e-mail ou par téléphone."
+    },
+    "secondStep": {
+      "title": "Etape 2 - Estimation",
+      "description": "Envoyez-nous une photo pour permettre d'estimer <important>un prix fixe et clair, convenu à l'avance</important> pour votre problème, qui ne changera pas lors de l'intervention."
+    },
+    "thirdStep": {
+      "title": "Etape 3 - Rendez-vous",
+      "description": "Je me déplace pour vous dépanner, ou nous convenons ensemble d'un rendez-vous selon le service."
+    }
+  }
+}

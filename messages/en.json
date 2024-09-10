@@ -1,0 +1,21 @@
+{
+    "HomePage": {
+      "title": "Hello world!",
+      "about": "Go to the about page"
+    },
+    "Contact": {
+      "title": "Contact us",
+      "firstStep": {
+        "title": "Step 1 - Contact",
+        "description": "Contact us on WhatsApp, by email or by phone."
+      },
+      "secondStep": {
+        "title": "Step 2 - Estimate",
+        "description": "Send us a photo to allow us to estimate <important>a fixed and clear price, agreed in advance</important> for your problem, which will not change during the intervention."
+      },
+      "thirdStep": {
+        "title": "Step 3 - Appointment",
+        "description": "I will come to help you out, or we will arrange an appointment together depending on the service."
+      }
+    }
+  }

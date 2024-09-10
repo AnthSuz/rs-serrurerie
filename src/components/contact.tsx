@@ -4,13 +4,15 @@ import Image from "next/image";
 import WhatsappLogo from "../../public/img/whatsapp.256x256.png";
 import PhoneLogo from "../../public/img/phone.256x256.png";
 import MailLogo from "../../public/img/mail.256x256.png";
+import { useTranslations } from "next-intl";
 
 export default function Contact() {
+  const t = useTranslations("Contact");
   return (
     <section id="contact" className="py-20 bg-[#e1e1e1] text-center">
       <div className="container mx-auto">
         <div className="flex justify-center items-baseline">
-          <h2 className="text-4xl font-bold mb-4 mr-2">Contactez-nous</h2>
+          <h2 className="text-4xl font-bold mb-4 mr-2">{t('title')}</h2>
           <Phone height="30px" width="30px" color="#B91F25" />
         </div>
         <p className="text-lg mb-8"></p>
@@ -23,8 +25,8 @@ export default function Contact() {
                 height="30px"
                 color="#B91F25"
               />
-              <p className="mb-3 font-semibold">Etape 1 - Contact</p>
-              <p>Contactez-nous sur WhatsApp, par e-mail ou par téléphone.</p>
+              <p className="mb-3 font-semibold">{t('firstStep.title')}</p>
+              <p>{t('firstStep.description')}</p>
             </div>
             <div>
               <Coins
@@ -33,14 +35,20 @@ export default function Contact() {
                 height="30px"
                 color="#B91F25"
               />
-              <p className="mb-3 font-semibold">Etape 2 - Estimation</p>
-              <p>
+              <p className="mb-3 font-semibold">{t('secondStep.title')}</p>
+              {/* <p>
                 Envoyez-nous une photo pour permettre d&apos;estimer{" "}
                 <span className="underline decoration-[#B91F25] underline-offset-4 font-medium">
                   un prix fixe et clair, convenu à l&apos;avance
                 </span>{" "}
                 pour votre problème, qui ne changera pas lors de
                 l&apos;intervention.
+              </p> */}
+              <p>
+                {t.rich('secondStep.description', {
+                  //@ts-ignore
+                  important: (chunks : any) => <span className="underline decoration-[#B91F25] underline-offset-4 font-medium">{chunks}</span>
+                })}
               </p>
             </div>
             <div>
@@ -50,10 +58,9 @@ export default function Contact() {
                 height="30px"
                 color="#B91F25"
               />
-              <p className="mb-3 font-semibold">Etape 3 - Rendez-vous</p>
+              <p className="mb-3 font-semibold">{t('thirdStep.title')}</p>
               <p>
-                Je me déplace pour vous dépanner, ou nous convenons ensemble
-                d&apos;un rendez-vous selon le service.
+              {t('thirdStep.description')}
               </p>
             </div>
           </div>

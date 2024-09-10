@@ -4,20 +4,26 @@ import Contact from "@/components/contact";
 import Header from "@/components/header";
 import Services from "@/components/services";
 import Image from "next/image";
-import WhatsappLogo from "../../public/img/whatsapp.256x256.png";
-import PhoneLogo from "../../public/img/phone.256x256.png";
+import WhatsappLogo from "../../../public/img/whatsapp.256x256.png";
+import PhoneLogo from "../../../public/img/phone.256x256.png";
 import { useEffect, useState } from "react";
 import Footer from "@/components/footer";
 import Tarif from "@/components/tarif";
+import {useTranslations} from 'next-intl';
+import { Link } from "@/i18n/routing";
 
 export default function Home() {
   const [displayContactMe, setDisplayContactMe] = useState<Boolean>(true);
-
+  const t = useTranslations('HomePage');
   useEffect(() => {
     setTimeout(() => setDisplayContactMe(false), 5000);
   }, []);
   return (
     <>
+    {/* <div>
+      <p>{t('title')}</p>
+      <Link href='/' locale="en" >LINK</Link>
+    </div> */}
       <Header />
       <Acceuil />
       <Services />
