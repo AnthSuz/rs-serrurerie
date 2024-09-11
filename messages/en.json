@@ -1,21 +1,101 @@
 {
-    "HomePage": {
-      "title": "Hello world!",
-      "about": "Go to the about page"
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "Header": {
+    "accueil": "ACCUEIL",
+    "services": "OUR SERVICES",
+    "prices": "PRICES",
+    "contact": "CONTACT",
+    "quote": "ONLINE QUOTE (soon)"
+  },
+  "Accueil": {
+    "firstCard": {
+      "title": "Locked door problem",
+      "description": "Intervention in Paris and throughout Île-de-France, 7 days a week, 24 hours a day, for all problems with slammed or locked doors, changing locks or cylinders."
     },
-    "Contact": {
-      "title": "Contact us",
-      "firstStep": {
-        "title": "Step 1 - Contact",
-        "description": "Contact us on WhatsApp, by email or by phone."
-      },
-      "secondStep": {
-        "title": "Step 2 - Estimate",
-        "description": "Send us a photo to allow us to estimate <important>a fixed and clear price, agreed in advance</important> for your problem, which will not change during the intervention."
-      },
-      "thirdStep": {
-        "title": "Step 3 - Appointment",
-        "description": "I will come to help you out, or we will arrange an appointment together depending on the service."
-      }
+    "secondCard": {
+      "title": "",
+      "descriptionOne": "Troubleshooting 24/7",
+      "descriptionTwo": "Free Quote",
+      "descriptionThree": "Individuals - Trustees - Businesses"
+    },
+    "thirdCard": {
+      "title": "Guaranteed door opening",
+      "description": "Because nothing is more important to us than your complete satisfaction, we provide quality services. At Raphael Serrurerie, you have the assurance of honest prices and no additional costs."
     }
+  },
+  "Services": {
+    "title": "Our Services",
+    "description": "We offer a wide range of services to meet all your locksmith needs.",
+    "firstCard": {
+      "title": "Lock <underline>installation</underline>",
+      "firstPoint": "• Installation of locks <italic>(3,5,7 points)</italic> all brands",
+      "secondPoint": "• Installation of cylinders and safety locks for all brands",
+      "thirdPoint": "• Repair of all types of locks",
+      "subtitle": "Intervention in less than 30 minutes"
+    },
+    "secondCard": {
+      "title": "<underline>Emergency</underline> repair",
+      "firstPoint": "• Slammed door opening",
+      "secondPoint": "• Opening of a locked door with keys",
+      "thirdPoint": "• Armored door opening",
+      "subtitle": "Fair and fixed price known in advance"
+    },
+    "thirdCard": {
+      "title": "<underline>Security</underline> consulting",
+      "firstPoint": "• Door reinforcement and shielding",
+      "secondPoint": "• Change door block",
+      "subtitle": "All our prices are approved by insurance"
+    }
+  },
+  "Prices": {
+    "title": "Prices",
+    "freeShifting": "<underline>FREE</underline> shifting",
+    "freeQuote": "<underline>FREE</underline> quote",
+    "titleTable": {
+      "services": "Services",
+      "from": "From*"
+    },
+    "table": {
+      "one":"Opening a slammed door",
+      "two":"Opening a locked door with keys",
+      "three":"Opening of closed armored door",
+      "four":"Cylinder change",
+      "five":"Lock change",
+      "six":"Change of 3,5,7 point high security locks",
+      "seven":"Change of door unit",
+      "eight":"Door shield",
+      "nine":"Metal curtain release",
+      "ten":"Emergency response"
+    },
+    "firstSubtitle": "*Prices from, do not hesitate <link>to contact us via the contact section</link> for a more precise estimate and obtain a fixed price known in advance.",
+    "secondSubtitle": "For any other services not on the list, do not hesitate <link>to contact us via the contact section</link> for a personalized quote."
+  },
+  "Contact": {
+    "title": "Contact us",
+    "firstStep": {
+      "title": "Step 1 - Contact",
+      "description": "Contact us on WhatsApp, by email or by phone."
+    },
+    "secondStep": {
+      "title": "Step 2 - Estimate",
+      "description": "Send us a photo to allow us to estimate <important>a fixed and clear price, agreed in advance</important> for your problem, which will not change during the intervention."
+    },
+    "thirdStep": {
+      "title": "Step 3 - Appointment",
+      "description": "I will come to help you out, or we will arrange an appointment together depending on the service."
+    }
+  },
+  "Footer": {
+    "description": "Specializing in opening slammed and locked doors throughout Paris and Île-de-France, we replace and install all secure locks using reliable equipment at the best value for money. Because nothing is more important to us than your complete satisfaction, we provide quality services. At Raphaël Serrurerie, you have the assurance of honest prices and no additional costs.",
+    "hidePhraseOne": "Cheap locksmith paris",
+    "hidePhraseTwo": "Honest locksmith",
+    "hidePhraseThree": "Honest locksmith Paris",
+    "hidePhraseFour": "Cheap locksmith",
+    "localLocksmithTitle": "Local locksmith",
+    "localLocksmithDescription": "Locksmith Paris (75) Locksmith Paris 01 (75001) Locksmith Paris 02 (75002) Locksmith Paris 03 (75003) Locksmith Paris 04 (75004) Locksmith Paris 05 (75005) Locksmith Paris 06 (75006) Locksmith Paris 07 (75007) Locksmith Paris 08 (75008) Locksmith Paris 09 (75009) Locksmith Paris 10 (75010) Locksmith Paris 11 (75011) Locksmith Paris 12 (75012) Locksmith Paris 13 (75013) Locksmith Paris 14 (75014) Locksmith Paris 15 (75015) Locksmith Paris 16 (75016) Locksmith Paris 17 (75017) Locksmith Paris 18 (75018) Locksmith Paris 19 (75019) Locksmith Paris 20 (75020) Locksmith Paris 21 (75021) Locksmith Seine-et-Marne (77) Locksmith Meaux (77100) Locksmith Chelles (77500) Locksmith Melun (77000) Locksmith Pontault-Combault (77340) Locksmith Savigny-le-Temple (77176) Locksmith Coulommiers (77120) Locksmith Torcy (77200) Locksmith Montereau-Fault-Yonne (77130) Locksmith Lagny-sur-Marne (77400) Locksmith Combs-la-Ville (77380) Locksmith Yvelines (78) Locksmith Versailles (78000) Locksmith Sartrouville (78500) Locksmith Mantes-la-Jolie (78200) Locksmith Saint-Germain-en-Laye (78100) Locksmith Poissy (78300) Locksmith Conflans-Sainte-Honorine (78700) Locksmith Les Mureaux (78130) Plaisir (78370) Locksmith Trappes (78190) Locksmith Houilles (78800) Locksmith Essonne (91) Locksmith Évry-Courcouronnes (91000) Locksmith Corbeil-Essonnes (91100) Locksmith Massy (91300) Locksmith Savigny-sur-Orge (91600) Locksmith Sainte-Geneviève-des-Bois (91700) Locksmith Viry-Châtillon (91170) Locksmith Draveil (91210) Locksmith Palaiseau (91120) Locksmith Athis-Mons (91200) Locksmith Ris-Orangis (91130) Locksmith (92) Locksmith Boulogne-Billancourt (92100) Locksmith Nanterre (92000) Locksmith Courbevoie (92400) Locksmith Colombes (92700) Locksmith Asnières-sur-Seine (92600) Locksmith Rueil-Malmaison (92500) Locksmith Levallois-Perret (92300) Locksmith Issy-les-Moulineaux (92130) Locksmith Antony (92160) Locksmith Neuilly-sur-Seine (92200) Locksmith Seine-Saint-Denis (93) Locksmith Saint-Denis (93200) Locksmith Montreuil (93100) Locksmith Aubervilliers (93300) Locksmith Aulnay-sous-Bois (93600) Locksmith Drancy (93700) Locksmith Noisy-le-Grand (93160) Locksmith Bondy (93140) Locksmith Épinay-sur-Seine (93800) Locksmith Le Blanc-Mesnil (93150) Locksmith Bobigny (93000) Locksmith Val-de-Marne (94) Locksmith Créteil (94000) Locksmith Vitry-sur-Seine (94400) Locksmith Champigny-sur-Marne (94500) Locksmith Ivry-sur-Seine (94200) Locksmith Villejuif (94800) Locksmith Fontenay-sous-Bois (94120) Locksmith Maisons-Alfort (94700) Locksmith Saint-Maur-des-Fossés (94100) Locksmith Alfortville (94140) Locksmith Choisy-le-Roi (94600) LocksmithVal-d&apos;Oise (95) Locksmith Argenteuil (95100) Locksmith Cergy (95000) Locksmith Garges-lès-Gonesse (95140) Locksmith Sarcelles (95200) Locksmith Franconville (95130) Locksmith Goussainville (95190) Locksmith Ermont (95120) Locksmith Bezons (95870) Locksmith Taverny (95150) Locksmith Eaubonne (95600)",
+    "openingDay": "Monday to Sunday 24/7 in Paris and Ile de France"
   }
+}

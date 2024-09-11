@@ -36,17 +36,8 @@ export default function Contact() {
                 color="#B91F25"
               />
               <p className="mb-3 font-semibold">{t('secondStep.title')}</p>
-              {/* <p>
-                Envoyez-nous une photo pour permettre d&apos;estimer{" "}
-                <span className="underline decoration-[#B91F25] underline-offset-4 font-medium">
-                  un prix fixe et clair, convenu à l&apos;avance
-                </span>{" "}
-                pour votre problème, qui ne changera pas lors de
-                l&apos;intervention.
-              </p> */}
               <p>
                 {t.rich('secondStep.description', {
-                  //@ts-ignore
                   important: (chunks : any) => <span className="underline decoration-[#B91F25] underline-offset-4 font-medium">{chunks}</span>
                 })}
               </p>

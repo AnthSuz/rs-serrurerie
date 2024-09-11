@@ -1,5 +1,5 @@
 "use client";
-import Acceuil from "@/components/acceuil";
+import Accueil from "@/components/accueil";
 import Contact from "@/components/contact";
 import Header from "@/components/header";
 import Services from "@/components/services";
@@ -25,7 +25,7 @@ export default function Home() {
       <Link href='/' locale="en" >LINK</Link>
     </div> */}
       <Header />
-      <Acceuil />
+      <Accueil />
       <Services />
       <Tarif />
       <Contact />

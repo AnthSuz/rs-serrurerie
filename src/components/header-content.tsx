@@ -1,5 +1,5 @@
 import { Separator } from "@/components/ui/separator";
-
+import { useTranslations } from "next-intl";
 interface headerContent {
   orientation: "vertical" | "horizontal";
   closeSheet: () => void;
@@ -9,6 +9,7 @@ export default function HeaderContent({
   orientation,
   closeSheet,
 }: headerContent) {
+  const t = useTranslations("Header");
   return (
     <>
       <a
@@ -16,7 +17,7 @@ export default function HeaderContent({
         className="text-lg cursor-pointer hover:underline underline-offset-4 hover:decoration-[#E1E1E1] text-white text-base lg:text-lg"
         onClick={closeSheet}
       >
-        ACCEUIL
+        {t('accueil')}
       </a>
       <Separator orientation={orientation} decorative className="bg-white" />
       <a
@@ -24,7 +25,7 @@ export default function HeaderContent({
         className="text-lg cursor-pointer hover:underline underline-offset-4 hover:decoration-[#E1E1E1] text-white text-base lg:text-lg"
         onClick={closeSheet}
       >
-        NOS SERVICES
+        {t('services')}
       </a>
       <Separator orientation={orientation} decorative className="bg-white" />
       <a
@@ -32,7 +33,7 @@ export default function HeaderContent({
         className="text-lg cursor-pointer hover:underline underline-offset-4 hover:decoration-[#E1E1E1] text-white text-base lg:text-lg"
         onClick={closeSheet}
       >
-        TARIFS
+        {t('prices')}
       </a>
       <Separator orientation={orientation} decorative className="bg-white" />
       <a
@@ -40,11 +41,11 @@ export default function HeaderContent({
         className="text-lg cursor-pointer hover:underline underline-offset-4 hover:decoration-[#E1E1E1] text-white text-base lg:text-lg"
         onClick={closeSheet}
       >
-        CONTACT
+        {t('contact')}
       </a>
       <Separator orientation={orientation} decorative className="bg-white" />
       <p className="text-lg cursor-default text-slate-400 text-base lg:text-lg">
-        DEVIS EN LIGNE (bientôt)
+      {t('quote')}
       </p>
     </>
   );

@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { ArrowBigLeft, ArrowBigRight } from "lucide-react";
+import { useTranslations } from "next-intl";
 
-export default function Acceuil() {
+export default function Accueil() {
   const pictures: string[] = [
     "/img/carrousel-first.jpg",
     "/img/carrousel-second.jpeg",
     "/img/carrousel-third.png",
   ];
+
   const [indexPicture, setIndexPicture] = useState<number>(0);
   const [animating, setAnimating] = useState(false);
   const [directionSlide, setDirectionSlide] = useState<{
@@ -36,6 +38,7 @@ export default function Acceuil() {
       transition: "transform 0.5s ease, opacity 0.5s ease",
     },
   };
+
   const handleNext = () => {
     setAnimating(true);
     setDirectionSlide(slideStyles.right);
@@ -57,6 +60,9 @@ export default function Acceuil() {
       setAnimating(false);
     }, 200);
   };
+
+  const t = useTranslations("Accueil");
+
   return (
     <section
       id="accueil"
@@ -78,12 +84,10 @@ export default function Acceuil() {
           {indexPicture === 0 ? (
             <>
               <h1 className="text-2xl md:text-4xl text-center px-4 md:px-8 font-bold pb-7">
-                Problème de porte vérrouillée
+              {t('firstCard.title')}
               </h1>
               <p className="text-xl md:text-2xl text-center px-6 md:px-6">
-                Intervention à Paris et dans toute l&apos;Île-de-France, 7j/7,
-                24h/24, pour tous problèmes de portes claquées ou verrouillées,
-                changement de serrures ou de cylindres.
+              {t('firstCard.description')}
               </p>
             </>
           ) : indexPicture === 1 ? (
@@ -92,26 +96,23 @@ export default function Acceuil() {
                 Raphaël Serrurerie
               </h1>
               <p className="text-xl md:text-2xl text-center px-6 md:px-6">
-                Dépannage 24H/24 & 7J/7
+                {t('secondCard.descriptionOne')}
                 <br />
                 <br />
-                Devis Gratuit
+                {t('secondCard.descriptionTwo')}
                 <br />
                 <br />
-                Particuliers - Syndics - Commerces
+                {t('secondCard.descriptionThree')}
               </p>
             </>
           ) : (
             indexPicture === 2 && (
               <>
                 <h1 className="text-2xl md:text-4xl text-center px-4 md:px-8 font-bold pb-7">
-                  Ouverture de porte garantie
+                {t('thirdCard.title')}
                 </h1>
                 <p className="text-xl md:text-2xl text-center px-6 md:px-6">
-                  Parce que rien n&apos;est plus important pour nous que votre
-                  entière satisfaction, nous réalisons des prestations de
-                  qualité. Chez Raphael Serrurerie, vous avez l&apos;assurance
-                  de prix honnêtes et sans surcoûts.
+                {t('thirdCard.description')}
                 </p>
               </>
             )

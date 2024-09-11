@@ -3,6 +3,75 @@
     "title": "Coucou Monde!",
     "about": "Go dans mon cul"
   },
+  "Header": {
+    "accueil": "ACCUEIL",
+    "services": "NOS SERVICES",
+    "prices": "TARIFS",
+    "contact": "CONTACT",
+    "quote": "DEVIS EN LIGNE (soon)"
+  },
+  "Accueil": {
+    "firstCard": {
+      "title": "Problème de porte vérrouillée",
+      "description": "Intervention à Paris et dans toute l'Île-de-France, 7j/7, 24h/24, pour tous problèmes de portes claquées ou verrouillées, changement de serrures ou de cylindres."
+    },
+    "secondCard": {
+      "descriptionOne": "Dépannage 24H/24 & 7J/7",
+      "descriptionTwo": "Devis Gratuit",
+      "descriptionThree": "Particuliers - Syndics - Commerces</test>"
+    },
+    "thirdCard": {
+      "title": "Ouverture de porte garantie",
+      "description": "Parce que rien n'est plus important pour nous que votre entière satisfaction, nous réalisons des prestations de qualité. Chez Raphael Serrurerie, vous avez l'assurance de prix honnêtes et sans surcoûts."
+    }
+  },
+  "Services": {
+    "title": "Nos Services",
+    "description": "Nous proposons une large gamme de services pour répondre à tous vos besoins en matière de serrurerie.",
+    "firstCard": {
+      "title": "<underline>Installation</underline> de serrures",
+      "firstPoint": "• Installation de serrures <italic>(3,5,7 points)</italic> toutes marques",
+      "secondPoint": "• Installation cylindres et verrous de sécurité toutes marques",
+      "thirdPoint": "• Réparation tout type de serrure",
+      "subtitle": "Intervention en moins de 30 minutes"
+    },
+    "secondCard": {
+      "title": "Dépannage <underline>d'urgence</underline>",
+      "firstPoint": "• Ouverture de porte claquée",
+      "secondPoint": "• Ouverture de porte fermée à clés",
+      "thirdPoint": "• Ouverture de porte blindée",
+      "subtitle": "Prix juste et fixe connu à l'avance"
+    },
+    "thirdCard": {
+      "title": "Conseil en <underline>sécurité</underline>",
+      "firstPoint": "• Renforcement et blindage de porte",
+      "secondPoint": "• Changement bloc de porte",
+      "subtitle": "Tout nos prix sont agréer assurances"
+    }
+  },
+  "Prices": {
+    "title": "Tarifs",
+    "freeShifting": "Déplacement <underline>GRATUIT</underline>",
+    "freeQuote": "Devis <underline>GRATUIT</underline>",
+    "titleTable": {
+      "services": "Services",
+      "from": "A partir de*"
+    },
+    "table": {
+      "one":"Ouverture de porte claquée",
+      "two":"Ouverture de porte fermée à clés",
+      "three":"Ouverture de porte blindée fermée",
+      "four":"Changement de cylindre",
+      "five":"Changement de verrou",
+      "six":"Changement de serrures 3,5,7 points de haute sureté",
+      "seven":"Changement de bloc porte",
+      "eight":"Blindage de porte",
+      "nine":"Deblocage rideau metallique",
+      "ten":"Intervention d'urgence"
+    },
+    "firstSubtitle": "*Prix à partir de, n'hésitez pas à <link>nous contacter via la section contact</link> pour une estimation plus précise et obtenir un prix fixe et connu à l'avance.",
+    "secondSubtitle": "Pour tout autre services non présent sur la liste, n'hésitez pas à <link>nous contacter via la section contact</link> pour un devis personnalisé."
+  },
   "Contact": {
     "title": "Contactez-nous",
     "firstStep": {
@@ -17,5 +86,15 @@
       "title": "Etape 3 - Rendez-vous",
       "description": "Je me déplace pour vous dépanner, ou nous convenons ensemble d'un rendez-vous selon le service."
     }
+  },
+  "Footer": {
+    "description": "Spécialisés dans l'ouverture de portes claquées et verrouillées partout à Paris et en Île-de-France, nous remplaçons et installons toutes les serrures sécurisées en utilisant du matériel fiable au meilleur rapport qualité-prix. Parce que rien n'est plus important pour nous que votre entière satisfaction, nous réalisons des prestations de qualité. Chez Raphaël Serrurerie, vous avez l'assurance de prix honnêtes et sans surcoûts.",
+    "hidePhraseOne": "Serrurier pas cher paris",
+    "hidePhraseTwo": "Serrurier honnête",
+    "hidePhraseThree": "Serrurier honnête Paris",
+    "hidePhraseFour": "Serrurier pas cher",
+    "localLocksmithTitle": "Serrurier de proximité",
+    "localLocksmithDescription": "Serrurier Paris (75) Serrurier Paris 01 (75001) Serrurier Paris 02 (75002) Serrurier Paris 03 (75003) Serrurier Paris 04 (75004) Serrurier Paris 05 (75005) Serrurier Paris 06 (75006) Serrurier Paris 07 (75007) Serrurier Paris 08 (75008) Serrurier Paris 09 (75009) Serrurier Paris 10 (75010) Serrurier Paris 11 (75011) Serrurier Paris 12 (75012) Serrurier Paris 13 (75013) Serrurier Paris 14 (75014) Serrurier Paris 15 (75015) Serrurier Paris 16 (75016) Serrurier Paris 17 (75017) Serrurier Paris 18 (75018) Serrurier Paris 19 (75019) Serrurier Paris 20 (75020) Serrurier Paris 21 (75021) Serrurier Seine-et-Marne (77) Serrurier Meaux (77100) Serrurier Chelles (77500) Serrurier Melun (77000) Serrurier Pontault-Combault (77340) Serrurier Savigny-le-Temple (77176) Serrurier Coulommiers (77120) Serrurier Torcy (77200) Serrurier Montereau-Fault-Yonne (77130) Serrurier Lagny-sur-Marne (77400) Serrurier Combs-la-Ville (77380) Serrurier Yvelines (78) Serrurier Versailles (78000) Serrurier Sartrouville (78500) Serrurier Mantes-la-Jolie (78200) Serrurier Saint-Germain-en-Laye (78100) Serrurier Poissy (78300) Serrurier Conflans-Sainte-Honorine (78700) Serrurier Les Mureaux (78130) Serrurier Plaisir (78370) Serrurier Trappes (78190) Serrurier Houilles (78800) Serrurier Essonne (91) Serrurier Évry-Courcouronnes (91000) Serrurier Corbeil-Essonnes (91100) Serrurier Massy (91300) Serrurier Savigny-sur-Orge (91600) Serrurier Sainte-Geneviève-des-Bois (91700) Serrurier Viry-Châtillon (91170) Serrurier Draveil (91210) Serrurier Palaiseau (91120) Serrurier Athis-Mons (91200) Serrurier Ris-Orangis (91130) Serrurier (92) Serrurier Boulogne-Billancourt (92100) Serrurier Nanterre (92000) Serrurier Courbevoie (92400) Serrurier Colombes (92700) Serrurier Asnières-sur-Seine (92600) Serrurier Rueil-Malmaison (92500) Serrurier Levallois-Perret (92300) Serrurier Issy-les-Moulineaux (92130) Serrurier Antony (92160) Serrurier Neuilly-sur-Seine (92200) Serrurier Seine-Saint-Denis (93) Serrurier Saint-Denis (93200) Serrurier Montreuil (93100) Serrurier Aubervilliers (93300) Serrurier Aulnay-sous-Bois (93600) Serrurier Drancy (93700) Serrurier Noisy-le-Grand (93160) Serrurier Bondy (93140) Serrurier Épinay-sur-Seine (93800) Serrurier Le Blanc-Mesnil (93150) Serrurier Bobigny (93000) Serrurier Val-de-Marne (94) Serrurier Créteil (94000) Serrurier Vitry-sur-Seine (94400) Serrurier Champigny-sur-Marne (94500) Serrurier Ivry-sur-Seine (94200) Serrurier Villejuif (94800) Serrurier Fontenay-sous-Bois (94120) Serrurier Maisons-Alfort (94700) Serrurier Saint-Maur-des-Fossés (94100) Serrurier Alfortville (94140) Serrurier Choisy-le-Roi (94600) SerrurierVal-d&apos;Oise (95) Serrurier Argenteuil (95100) Serrurier Cergy (95000) Serrurier Garges-lès-Gonesse (95140) Serrurier Sarcelles (95200) Serrurier Franconville (95130) Serrurier Goussainville (95190) Serrurier Ermont (95120) Serrurier Bezons (95870) Serrurier Taverny (95150) Serrurier Eaubonne (95600)",
+    "openingDay": "Du lundi au dimanche 7j/7 24h/24 sur Paris et Ile de France"
   }
 }
