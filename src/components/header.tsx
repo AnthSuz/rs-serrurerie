@@ -1,6 +1,5 @@
 "use client";
-import RsLogo from "../../public/img/logo-rs.png";
-import RsLogoMobile from "../../public/img/logo-rs-mobile.png";
+import { useEffect, useState } from "react";
 
 import Image from "next/image";
 import { Menu } from "lucide-react";
@@ -10,8 +9,12 @@ import {
   SheetDescription,
   SheetTrigger,
 } from "@/components/ui/sheet";
+
 import HeaderContent from "./header-content";
-import { useEffect, useState } from "react";
+import LanguageSwitch from "./ui/language-switch";
+
+import RsLogo from "../../public/img/logo-rs.png";
+import RsLogoMobile from "../../public/img/logo-rs-mobile.png";
 
 export default function Header() {
   const [openSheet, setOpenSheet] = useState<boolean>(false);
@@ -27,16 +30,16 @@ export default function Header() {
       setTopPosition(scroll);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
     <div>
-      <div className="bg-[#BF1E1D] flex fixed w-full justify-between p-2 md:p-0 md:block scroll-smooth block z-50">
+      <div className="bg-[#BF1E1D] flex fixed items-center w-full justify-between p-2 md:p-0 md:block scroll-smooth block z-50">
         <div
           className={`flex justify-center hidden ${
             topPosition > 50 ? "hidden" : "md:flex"
@@ -57,8 +60,17 @@ export default function Header() {
             className="p-4"
           />
         </div>
-        <div className="gap-6 justify-center items-center hidden md:flex py-3">
-          <HeaderContent orientation="vertical" closeSheet={closeSheet} />
+        <div className="md:hidden">
+          <LanguageSwitch />
+        </div>
+
+        <div className="relative flex justify-center items-center hidden md:flex py-3">
+          <div className="gap-6 flex justify-center items-center">
+            <HeaderContent orientation="vertical" closeSheet={closeSheet} />
+          </div>
+          <div className="absolute right-4">
+            <LanguageSwitch />
+          </div>
         </div>
         <Sheet open={openSheet} onOpenChange={() => setOpenSheet(!openSheet)}>
           <SheetTrigger
