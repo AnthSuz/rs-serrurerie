@@ -9,21 +9,17 @@ import PhoneLogo from "../../../public/img/phone.256x256.png";
 import { useEffect, useState } from "react";
 import Footer from "@/components/footer";
 import Tarif from "@/components/tarif";
-import {useTranslations} from 'next-intl';
+import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 
 export default function Home() {
   const [displayContactMe, setDisplayContactMe] = useState<Boolean>(true);
-  const t = useTranslations('HomePage');
+  const t = useTranslations("HomePage");
   useEffect(() => {
     setTimeout(() => setDisplayContactMe(false), 5000);
   }, []);
   return (
     <>
-    {/* <div>
-      <p>{t('title')}</p>
-      <Link href='/' locale="en" >LINK</Link>
-    </div> */}
       <Header />
       <Accueil />
       <Services />
@@ -38,7 +34,7 @@ export default function Home() {
               : "hidden"
           } duration-200`}
         >
-          Contact moi 🙂
+          {t("contact")} 🙂
         </p>
         <a href="tel:+33666150874" className="hover:scale-110 duration-200">
           <Image
