@@ -7,7 +7,7 @@
     "services": "OUR SERVICES",
     "prices": "PRICES",
     "contact": "CONTACT",
-    "quote": "ONLINE QUOTE (soon)"
+    "rating": "RATING"
   },
   "Accueil": {
     "firstCard": {
@@ -58,16 +58,16 @@
       "from": "From*"
     },
     "table": {
-      "one":"Opening a slammed door",
-      "two":"Opening a locked door with keys",
-      "three":"Opening of closed armored door",
-      "four":"Cylinder change",
-      "five":"Lock change",
-      "six":"Change of 3,5,7 point high security locks",
-      "seven":"Change of door unit",
-      "eight":"Door shield",
-      "nine":"Metal curtain release",
-      "ten":"Emergency response"
+      "one": "Opening a slammed door",
+      "two": "Opening a locked door with keys",
+      "three": "Opening of closed armored door",
+      "four": "Cylinder change",
+      "five": "Lock change",
+      "six": "Change of 3,5,7 point high security locks",
+      "seven": "Change of door unit",
+      "eight": "Door shield",
+      "nine": "Metal curtain release",
+      "ten": "Emergency response"
     },
     "firstSubtitle": "*Prices from, do not hesitate <link>to contact us via the contact section</link> for a more precise estimate and obtain a fixed price known in advance.",
     "secondSubtitle": "For any other services not on the list, do not hesitate <link>to contact us via the contact section</link> for a personalized quote."
@@ -86,6 +86,9 @@
       "title": "Step 3 - Appointment",
       "description": "I will come to help you out, or we will arrange an appointment together depending on the service."
     }
+  },
+  "Rating": {
+    "title": "Rating"
   },
   "Footer": {
     "description": "Specializing in opening slammed and locked doors throughout Paris and Île-de-France, we replace and install all secure locks using reliable equipment at the best value for money. Because nothing is more important to us than your complete satisfaction, we provide quality services. At Raphaël Serrurerie, you have the assurance of honest prices and no additional costs.",

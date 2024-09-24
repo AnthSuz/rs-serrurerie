@@ -7,7 +7,7 @@
     "services": "NOS SERVICES",
     "prices": "TARIFS",
     "contact": "CONTACT",
-    "quote": "DEVIS EN LIGNE (soon)"
+    "rating": "AVIS"
   },
   "Accueil": {
     "firstCard": {
@@ -17,7 +17,7 @@
     "secondCard": {
       "descriptionOne": "Dépannage 24H/24 & 7J/7",
       "descriptionTwo": "Devis Gratuit",
-      "descriptionThree": "Particuliers - Syndics - Commerces</test>"
+      "descriptionThree": "Particuliers - Syndics - Commerces"
     },
     "thirdCard": {
       "title": "Ouverture de porte garantie",
@@ -85,6 +85,9 @@
       "title": "Etape 3 - Rendez-vous",
       "description": "Je me déplace pour vous dépanner, ou nous convenons ensemble d'un rendez-vous selon le service."
     }
+  },
+  "Rating": {
+    "title": "Avis"
   },
   "Footer": {
     "description": "Spécialisés dans l'ouverture de portes claquées et verrouillées partout à Paris et en Île-de-France, nous remplaçons et installons toutes les serrures sécurisées en utilisant du matériel fiable au meilleur rapport qualité-prix. Parce que rien n'est plus important pour nous que votre entière satisfaction, nous réalisons des prestations de qualité. Chez Raphaël Serrurerie, vous avez l'assurance de prix honnêtes et sans surcoûts.",

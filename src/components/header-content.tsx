@@ -44,9 +44,13 @@ export default function HeaderContent({
         {t('contact')}
       </a>
       <Separator orientation={orientation} decorative className="bg-white" />
-      <p className="text-lg cursor-default text-slate-400 text-base lg:text-lg">
-      {t('quote')}
-      </p>
+      <a
+        href="#rating"
+        className="text-lg cursor-pointer hover:underline underline-offset-4 hover:decoration-[#E1E1E1] text-white text-base lg:text-lg"
+        onClick={closeSheet}
+      >
+        {t('rating')}
+      </a>
     </>
   );
 }

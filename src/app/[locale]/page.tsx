@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
 import Footer from "@/components/footer";
 import Tarif from "@/components/tarif";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/routing";
+import Rating from "@/components/rating";
 
 export default function Home() {
   const [displayContactMe, setDisplayContactMe] = useState<Boolean>(true);
@@ -25,6 +25,7 @@ export default function Home() {
       <Services />
       <Tarif />
       <Contact />
+      <Rating />
       <Footer />
       <div className="fixed right-2 bottom-2 ">
         <p
